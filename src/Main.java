@@ -109,6 +109,7 @@ public class Main
         file = file.resolve("src");
         fileOpen.setCurrentDirectory(file.toFile());
 
+
         try
         {
             if (fileOpen.showOpenDialog(null) == JFileChooser.APPROVE_OPTION)
